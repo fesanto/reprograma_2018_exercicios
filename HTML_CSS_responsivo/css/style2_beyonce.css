@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    background-image: url('../img/retangulo.png');
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.container-branco{
+    background-color: #ffffff;
+    border:1px solid #ccc;
+    width: 40%;
+    height: 80%;
+    margin-top: 5%;
+}
+
+.container-branco-foto{
+    display: block;
+    margin: auto auto;
+    text-align: center;
+}
+
+.container-branco p{
+    font-size: 36px;
+    color: #5D1277;
+}
+
+.container-branco span{
+    font-size: 24px;
+    color: #4F4F4F;
+}
+
+.container-branco-rs{
+    display: block;
+    margin: auto auto;
+    width: 50%;
+}
