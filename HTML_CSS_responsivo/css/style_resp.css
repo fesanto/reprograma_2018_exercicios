@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container{
+    font-family: 'Nunito';
+}
+
+.topbar{
+    background-color: #a0bed0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 80px;
+}
+
+.topbar ul{
+    font-family: 'Nunito';
+    font-size: 13px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.topbar li{
+    margin-right: 229px;
+    margin-left: -182px;
+ }
+
+
+.topbar ul li a{
+    color:#fff;
+    text-decoration: none;
+    /* border: 1px solid #000; */
+
+}
+
+.topbar ul li a:hover{
+color: rgba(255, 255, 255, 0.5);
+}
+
+a{}
+
+.cabecalho{
+    background-image: url('../img/foto-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    font-family: 'Varela Round';
+    padding-top: 80px;
+}
+
+
+.cabecalho h1{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 105px;
+    color: rgba(219, 219, 219, 0.5);
+    padding-top: 100px;
+}
+
+.cabecalho h3{
+    color:rgba(219, 219, 219, 0.8);
+    padding-bottom: 110px;
+    width: 500px;
+    height: 50px;
+}
+
+.cabecalho a{
+    text-transform: uppercase;
+    background-color: #a0bed0;
+    border-radius: 5px;
+    padding: 25px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cabecalho a:hover{
+    background-color: #36b0e0;
+}
+
+.cabecalho h2{
+    color: rgba(255, 255, 255);
+    margin-top:100px;
+    margin-bottom: 10px;
+}
+
+.cabecalho p{
+    color:rgba(219, 219, 219, 0.8);
+    font-size: 14px;
+}
+
+.cabecalho-texto{
+    background-color: #212529;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+
+.cabecalho-texto-preto{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    line-height: 30px;
+
+}
+
+.siberia img{
+    margin-top: 250px;
+}
+
+
+.contatos a{
+    text-align: center;
+}
