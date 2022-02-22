@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: -webkit-gradient(linear, left top, right top, from(#e0c3fc), to(#8ec5fc));
+    background: -moz-linear-gradient(left, #e0c3fc, #8ec5fc);
+    font-family: "Open Sans", sans-serif;
+}
+
+/*proibindo de mexer no tamanho da textarea*/ 
+textarea {
+    resize:none;
+}
+
+.container{
+    background-color: white;
+    width: 70%;
+    height: auto;
+    margin: 10% auto;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+}
+
+.header{
+    height: 10%;
+}
+
+.header__title{
+    font-size: 15px;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+    margin: 5px auto;
+    text-transform: uppercase;
+}
+
+.header__line{
+    width: 100%;
+}
+
+.list-composer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 5% auto;
+}
+
+.list-composer__text{
+    margin: 0;
+    width: 300px;
+    height: 45px;
+}
+
+#listComposerInput{
+    margin: 0 10px;
+    width: 280px;
+    height: 45px;
+}
+
+.button{
+    width: 140px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.list-composer__button{
+    background-color: #ba7af8;
+    color: white;
+    margin: 15px auto 0 auto; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-area__button-check{
+    padding: 5px;
+    background-color: #019108c5;
+    color: white;
+}
+
+.list-area__button-del{
+    padding: 5px;
+    background-color: #ff0000a9;
+    color: white;
+}
+
+.list-composer__area{
+    width: 100%;
+    height: 70%;
+}
+
+.list-area__box{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    display: none;
+}
+  
+.list-area__text{
+    margin: 10px 15px;
+    width: 75%;
+}
+
+.list-area__btn{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+  
+a{
+    width: 10%;
+}
+  
+.fa-check-circle{
+    text-decoration: none;
+    color: green;
+    padding: 5px;
+}
+  
+.fa-times-circle{
+    text-decoration: none;
+    color: red;
+    padding: 5px;
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+.span-content{
+    background-color:yellowgreen;
+    border-bottom: solid 1px lightgrey;
+    color: #000000;
+    margin: 8px 0;
+    position: relative;
+}
+
+.dragover{
+    border-bottom: 3px solid grey;
+}
+
+/*** MEDIA QUERIES ***/
+/* TABLET RETRATO  */
+@media (min-width: 768px) {
+
+    .container{
+        width: 55%;
+    }
+
+    .list-composer__text{
+        width: 390px;
+        height: 70px;
+    }
+
+    #listComposerInput{
+        width: 370px;
+        height: 60px;
+    }
+
+}
+
+/*** MEDIA QUERIES ***/
+/* TABLET PAISAGEM  */
+@media (min-width: 960px) {
+
+    .container{
+        width: 50%;
+    }
+
+    .list-composer__text{
+        width: 430px;
+        height: 85px;
+    }
+
+    #listComposerInput{
+        width: 410px;
+        height: 75px;
+    }
+}
+
+/*** MEDIA QUERIES ***/
+/* DESKTOP  */
+@media (min-width: 1280px) {
+
+    .container{
+        width: 40%;
+    }
+
+    .list-composer__text{
+        width: 470px;
+        height: 90px;
+    }
+
+    #listComposerInput{
+        width: 450px;
+        height: 80px;
+    }
+}

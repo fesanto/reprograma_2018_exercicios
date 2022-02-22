@@ -1,0 +1,553 @@
+/* GERAL */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* NAVEGAÇÃO */
+
+.nav-conteudo_menu,
+.nav-conteudo_redes{
+    display: none;
+}
+
+.nav-container{
+    background-color: #674582;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-conteudo{
+    margin: 0 auto;
+    height: 90px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-mobile{
+    padding-left: 25%;
+}
+
+/*  HEADER  */
+
+.header-container{
+    background-image: url('../img/bg-banner-claro-org.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 45vh;
+}
+
+.header-container-box{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.header-container-2{
+    background-image: url('../img/zilda-hor.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 45vh;  
+}
+
+.header-texto h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 800;
+    max-width: 500px;
+    color:#ffffff;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.header-texto-2 h2{
+    color: #ffffff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 43%;
+    padding-left: 5%; 
+}
+
+.header-texto p{
+    display: none;
+}
+
+.header-texto-btn{
+    display: none;
+}
+
+
+/* CORPO */
+
+.personalidades-conteudo p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1rem;
+    color: #63458A;
+    text-align: center;
+    font-weight: 800;
+    padding: 25px;
+}
+
+.personalidades-container_img{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.personalidades-container-2_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personalidades-container_img img{
+    background-color: #674582;
+    border-radius: 5px;
+    width: 80px;
+    height: 86px;
+}
+
+.personalidades-container_img p{
+    display: none;
+}
+
+.esq{
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.dir{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.personalidades-container-2_img img{
+    border-radius: 100px;
+    width: 170px;
+    height: 176px;
+    margin-left: 30%;
+}
+
+.personalidades-container-2_img p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    font-weight: lighter;
+    text-align: justify;
+    color: #63458A;
+}
+
+.personalidade-conteudo_citacao p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1.5;
+    border: 1px solid #63458A;
+    text-align: center;
+    margin: 3% 7% 0 7%;
+    padding: 2%;
+}
+
+.personalidade-conteudo_historia h2{
+    font-family: 'Roboto Slab';
+    color: #63458A;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.personalidade-conteudo_historia p{
+    padding: 30px 15px 0  15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    text-align: justify;
+    color: #63458A;
+}
+
+.personalidade-conteudo_historia-img img{
+    margin: 30px 35px 0 35px;
+    max-width: 350px;
+}
+
+/* DESENVOLVEDORA */
+
+.info-desenvolvedora{
+    background-color: #E4B7E5;
+    margin-top: 40px;
+}
+
+
+.info-desenvolvedora_conteudo{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+ 
+.info-desenvolvedora_conteudo-img img{
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+.info-desenvolvedora_conteudo-text{
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #63458A;
+    font-weight: 700;
+    font-size: .8rem;
+    padding-top: 23px;
+}
+
+/* BTN VER TODAS */
+
+.ver-todas{
+    height: 110px;
+    padding: 45px 0 45px 29%;
+}
+
+.ver-todas a{
+    background-color: #C083B9;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+.footer-claro{
+    background-color: #323534;
+}
+
+.footer-claro-container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-claro_conteudo{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-claro_conteudo-home{
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
+
+.footer-claro_conteudo-rep{
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
+
+.footer-claro_img{
+    display: none;
+}
+
+.footer-claro_face{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-claro_img-face{
+    width: 20px;
+    height: 30px;
+}
+
+.footer-claro_face p{
+    color: #ffffff;
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+
+.footer-escuro{
+    background-color: #292A2A;
+    color: #ffffff;
+    font-size: 0.6rem;
+    text-align: center;
+    height: 60px;
+    padding-top: 22px;
+}
+
+/* <><> 1280, 1024, 768, 420<><><><><><><><><> */
+
+/* TABLET PORTRAIT - 768px */
+
+@media (min-width: 768px){
+
+    /* NAVEGAÇÃO */
+
+    /* .nav-mobile{
+        display: none;
+    } */
+
+    .nav-container{
+        position: fixed; /*quando usar position fixed, SEMPRE usar width 100%, top 0 e z-index 99*/
+    }
+
+    .nav-conteudo{
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    /* .nav-conteudo_menu{
+        margin-left: 150px;
+    }
+
+    .nav-conteudo_lista{
+        display: flex;
+        justify-content: flex-end;
+        font-size: 12px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .nav-conteudo_lista li{
+        padding: 15px;
+    }
+
+    .nav-conteudo_inst{
+        margin: 0 10px;
+    }
+
+    .nav-conteudo_link{
+        margin-right: 10px;
+    } */
+
+    /*  HEADER  */
+
+    .header-container{
+        height: 80vh;
+        margin-top: 5%;
+    }
+
+    .header-container-box{
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 20%;
+    }
+
+    .header-container-2{
+        height: 80vh;  
+        margin-top: 5%;
+    }
+
+    .header-texto h2{
+        font-size: 2rem;
+        max-width: 700px;
+    }
+
+    .header-texto-2 h2{
+        font-size: 3rem;
+        padding-top: 42%;
+        padding-left: 24%; 
+    }
+
+    .header-texto p{
+        display: none;
+    }
+
+    .header-texto-btn{
+        display: none;
+    }
+
+    /* CORPO */
+
+    .personalidades-conteudo p{
+        font-size: 1.3rem;
+        padding: 30px;
+    }
+
+    .personalidades-container_img img{
+        width: 130px;
+        height: 136px;
+    }
+
+    /* ESSE BLOCO ESTÁ SENDO AFETADO PELA CONFIGURAÇÃO 420PX*/
+    /* .personalidades-container_img p{
+        padding: 10px 0;
+        font-family: 'Montserrat';
+        font-size: 18px;
+        font-weight: lighter;
+        color: #000000;
+        width: 170px;
+        height: 45px;
+        margin-bottom: 60px;
+    } */
+
+    .esq{
+        margin-right: 100px;
+        margin-bottom: 50px;
+    }
+
+    .dir{
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+
+    .personalidades-container-2_img{
+        display: flex;
+        flex-direction: row;
+    }
+    .personalidades-container-2_img img{
+        width: 180px;
+        height: 186px;
+        margin: 0;
+        margin: 5% 0 0 15%;
+    }
+
+    .personalidades-container-2_img p{
+        font-size: .9rem;
+        line-height: 1.3;
+        text-align: left;
+        width: 550px;
+        padding-left: 10%;
+    }
+
+    .personalidade-conteudo_citacao p{
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 3% 7% 0 7%;
+        padding: 2%;
+    }
+
+    .personalidade-conteudo_historia p{
+        padding: 30px 30px 0  30px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.9rem;
+        font-weight: lighter;
+        text-align: justify;
+        color: #63458A;
+    }
+
+    .personalidade-conteudo_historia-img{
+        display: flex;
+        max-width: 750px;
+        margin: 0 30px;
+    }
+
+    .personalidade-conteudo_historia-img img{
+        max-width: 380px;
+    }
+
+    /* BTN VER TODAS */
+
+    .ver-todas{
+        height: 110px;
+        padding: 45px 0 45px 39%;
+    }
+
+    /* FOOTER */
+
+    .footer-claro_conteudo{
+        height: 130px;
+    }
+
+    .footer-claro_conteudo-home{
+        font-size: 1rem;
+    }
+    
+    .footer-claro_conteudo-rep{
+        font-size: 1rem;
+    }
+    
+    .footer-claro_img-face{
+        height: 35px;
+    }
+    
+    .footer-claro_face p{
+        font-size: 1rem;
+    }
+
+    .footer-escuro{
+        font-size: 0.7rem;
+    }
+
+}
+
+/* TABLET LANDSCAPE - 768px */
+
+@media (min-width: 1024px){
+
+    /*  FOOTER  */
+
+    .footer-claro{
+        background-color: #323534;
+    }
+
+    .footer-claro-container{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .footer-claro_conteudo{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-claro_conteudo-home{
+        text-align: center;
+    }
+
+    .footer-claro_img{
+        margin: 0 70px;
+    }
+
+    .footer-claro_face{
+        width: 30px;
+    }
+
+    .footer-claro_img-face{
+        width: 25px;
+    }
+
+    .footer-claro_p-face{
+        color: #ffffff;
+        padding-top: 15px;
+    }
+
+    .footer-escuro{
+        background-color: #292A2A;
+        color: #ffffff;
+        text-align: center;
+        height: 70px;
+        padding-top: 28px;
+    }
+
+}
