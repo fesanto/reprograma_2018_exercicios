@@ -1,0 +1,35 @@
+.footer{
+    background-color: rgb(255, 165, 0);
+    width: 100%;
+    height: auto;
+
+}
+
+.footer__div{
+    justify-content: space-around;
+    display: flex;
+    padding: 12px 0;
+}
+
+.footer p{
+    font-size: 14px;
+}
+
+.footer__redes{
+    align-items: center;
+    display: flex;
+}
+
+.footer__redes a{
+    padding-right: 3px;
+}
+
+@media (min-width: 768px){
+    .footer p{
+        font-size: 16px;
+    }
+
+    .footer__redes a{
+        padding-right: 15px;
+    }
+}

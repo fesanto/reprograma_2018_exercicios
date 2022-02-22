@@ -1,0 +1,257 @@
+
+.header{
+    background-color: rgb(255, 165, 0);
+    background-size: cover;
+    height: auto;
+    padding: 30px 0;
+    background-position: center;
+    -webkit-clip-path: polygon(0 4%, 18% 4%, 23% 0, 40% 0, 45% 4%, 76% 4%, 81% 0, 100% 0, 100% 100%, 95% 100%, 90% 96%, 65% 96%, 60% 100%, 40% 100%, 35% 96%, 20% 96%, 15% 100%, 0 100%);
+    clip-path: polygon(0 4%, 18% 4%, 23% 0, 40% 0, 45% 4%, 76% 4%, 81% 0, 100% 0, 100% 100%, 95% 100%, 90% 96%, 65% 96%, 60% 100%, 40% 100%, 35% 96%, 20% 96%, 15% 100%, 0 100%);
+}
+.header h1{
+    font-size: 18px;
+}
+.sintomas,
+.casos-reais,
+.curiosidades,
+.contato{
+    padding: 10px 0;
+}
+.sintomas h2,
+.casos-reais h2,
+.curiosidades h2,
+.contato h2{
+    font-size: 16px;
+}
+.sintomas td{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.casos-reais__div-a,
+.casos-reais__div-b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.casos-reais__div-1,
+.casos-reais__div-2,
+.casos-reais__div-3,
+.casos-reais__div-4{
+    border: 2px solid rgb(255, 165, 0);
+    width: 80%;
+    height: 320px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.casos-reais__div-b{
+    display: none;
+}
+.casos-reais h3{
+    font-size: 16px;
+}
+.casos-reais img{
+    width: 45%;
+}
+.casos-reais li{
+    font-size: 10px;
+}
+.casos-reais__div-1 ul,
+.casos-reais__div-2 ul,
+.casos-reais__div-3 ul,
+.casos-reais__div-4 ul{
+    padding: 0 30px;
+    text-align: left;
+}
+.curiosidades__carrossel{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+.contato__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contato__form{
+    width: 85%;
+}
+.contato__links{
+    width: 75%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.contato__links p{
+    font-size: 12px;
+    text-align: left;
+    margin: 0;
+}
+.contato__links img{
+    width: 90%;
+}
+textarea{
+    font-size: 12px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 0 0 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    resize: none;
+}
+textarea:focus{
+    outline: none;
+    border-color: rgb(255, 165, 0);
+    box-shadow: 0 0 10px rgb(255, 165, 0);
+}
+.button {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    background: rgba(255, 165, 0, 0.8);
+    border: 1px solid rgb(255, 165, 0, 0.8);
+    border-radius: 5px;
+}
+
+@media (min-width: 420px){
+    .header{
+        height: auto;
+    }
+}
+
+@media (min-width: 768px){
+    .header{
+        height: auto;
+    }
+    .header h1{
+        font-size: 24px;
+    }
+    .header p{
+        font-size: 14px;
+    }
+    .sintomas h2,
+    .casos-reais h2,
+    .curiosidades h2,
+    .contato h2{
+        font-size: 18px;
+    }
+    .casos-reais__div-1,
+    .casos-reais__div-2,
+    .casos-reais__div-3,
+    .casos-reais__div-4{
+        height: 300px;
+    }
+    .casos-reais img{
+        width: 25%;
+    }
+    .casos-reais li{
+        font-size: 12px;
+    }
+    .curiosidades__carrossel{
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .contato__links p{
+        font-size: 14px;
+    }   
+}
+
+@media (min-width: 1024px){
+    .header{
+        height: auto;
+    }
+    .casos-reais__div-a,
+    .casos-reais__div-b{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .casos-reais__div-1,
+    .casos-reais__div-2,
+    .casos-reais__div-3,
+    .casos-reais__div-4{
+        margin: 20px;
+        height: 300px;
+    }
+    .casos-reais__div-3,
+    .casos-reais__div-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .curiosidades__carrossel{
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .contato__div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contato__links{
+        width: 45%;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+    }
+    .contato__links img{
+        width: 35%;
+    }
+    .contato__links p{
+        margin-left: 50px;
+    } 
+}
+
+@media (min-width: 1440px){
+    .header{
+        height: auto;
+        -webkit-clip-path: polygon(0 7%, 10% 7%, 13% 0, 30% 0, 33% 7%, 50% 7%, 53% 0, 65% 0, 68% 9%, 76% 9%, 79% 0, 90% 0, 93% 7%, 100% 7%, 100% 100%, 95% 100%, 92% 90%, 75% 90%, 72% 100%, 60% 100%, 57% 95%, 40% 95%, 37% 100%, 28% 100%, 25% 93%, 18% 93%, 15% 100%, 0 100%);
+        clip-path: polygon(0 7%, 10% 7%, 13% 0, 30% 0, 33% 7%, 50% 7%, 53% 0, 65% 0, 68% 9%, 76% 9%, 79% 0, 90% 0, 93% 7%, 100% 7%, 100% 100%, 95% 100%, 92% 90%, 75% 90%, 72% 100%, 60% 100%, 57% 95%, 40% 95%, 37% 100%, 28% 100%, 25% 93%, 18% 93%, 15% 100%, 0 100%);
+    }
+    .header h1{
+        font-size: 28px;
+    }
+    .header p{
+        font-size: 16px;
+    }
+    .sintomas h2,
+    .casos-reais h2,
+    .curiosidades h2,
+    .contato h2{
+        font-size: 20px;
+    }
+    .casos-reais__div-1,
+    .casos-reais__div-2,
+    .casos-reais__div-3,
+    .casos-reais__div-4{
+        height: 330px;
+    }
+    .curiosidades__carrossel{
+        width: 30%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .contato__div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contato__links{
+        width: 55%;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+    }
+    .contato__links img{
+        width: 25%;
+    }
+    .contato__links p{
+        margin-left: 100px;
+    } 
+}

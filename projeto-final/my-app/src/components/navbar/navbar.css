@@ -1,0 +1,31 @@
+/* iniciando em 320px */
+.navbar{
+    margin: 8px 0;
+}
+
+.navbar__logo{
+    width: 50%;
+}
+
+@media (min-width: 768px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar__logo{
+        width: 35%;
+    }
+}
+
+@media (min-width: 1024px){
+    .navbar__logo{
+        width: 35%;
+    }
+}
+
+@media (min-width: 1440px){
+    .navbar__logo{
+        width: 25%;
+    }
+}
