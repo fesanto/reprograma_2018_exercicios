@@ -1,0 +1,147 @@
+/*  GERAL  */
+*{
+	box-sizing: border-box; 
+}
+
+body{
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif; /*definimos a fonte*/
+	margin: 0 auto;
+}
+
+/*  NAVEGAÇÃO  */
+.topbar{
+	position: fixed; /*fixa o topbar*/
+	width: 100%; /*ocupa 100% da área superior*/
+	padding: 10px 95px; 
+	top: 0; 
+	box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+	background-color: #ffffff;
+	z-index: 999;
+}
+
+a{
+	text-decoration: none;
+	color: #4A4A4A;
+
+}
+
+.menu{
+	display: inline-block;
+	margin-left: 502px;
+}
+
+.menu__item{
+	display: inline;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+/*  LAYOUT  */
+.container{
+	width: 960px;
+	margin: 0 auto;	
+}
+
+.col-1-de-3{
+	display: inline-block;
+	width: 25%;
+}
+
+.col-2-de-3{
+	display: inline-block;
+	width: 74%;
+}
+
+
+/*  HEADER  */
+
+/*header > h3 {} -- o símbolo > indica que vamos tratar o h3 filho direto da header*/
+
+header{
+	padding-top: 70px;
+}
+
+.header__titulo{
+	text-transform: uppercase; /*transforma em letras maiúsculas*/
+	color: #9013FE; /*cor*/
+	font-weight: lighter;  /*largura da letra*/
+	font-size: 16px;  /*tamanho da letra*/
+	text-align: center;  /*alinhamento do texto*/
+}
+
+/*  ASIDE  */
+
+.author{
+	text-align: center; /*alinha o texto no centro*/
+	border: 1px solid #CCCCCC; /*configura uma borda de 1px, sólida e de cor cinza*/
+	padding: 20px; 
+	vertical-align: top;
+	height: 517px;
+}
+
+.author__nome,
+.author__ocupacao{
+	margin: 0;
+}
+
+.author_nome{
+	margin-top: 10px;
+}
+
+
+/*  ARTICLE  */
+
+.article{
+	padding: 0 20px;
+}
+
+.article__titulo{
+	font-size: 36px;
+	font-weight: bolder;
+	margin-top: 0;
+}
+
+.article p{
+	font-size: 24px;
+	padding-bottom: 30px;
+}
+
+.article img{
+	width: 100%;
+}
+
+/*  FOOTER  */
+
+footer{
+	/* background-color: #9013FE; */
+	text-align: center;
+	color: #9013FE;
+}
+
+.rodape p{
+	margin: 0;
+	padding: 10px 0;
+}
+
+/*  MEDIA  */
+
+@media (max-width: 768px) {
+	.menu{
+		display: none;
+	}
+
+	.col-1-de-3{
+		display: none;
+	}
+
+	.col-2-de-3{
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	footer{
+		width: 80%;
+		margin: auto;
+	}
+}
